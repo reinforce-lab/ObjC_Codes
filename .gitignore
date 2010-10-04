@@ -1,0 +1,6 @@
+#ignore build files
+build/
+*.pbxuser
+*.mode1v3
+
+
