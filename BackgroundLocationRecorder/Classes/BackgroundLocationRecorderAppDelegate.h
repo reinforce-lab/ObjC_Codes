@@ -18,20 +18,13 @@
     UIWindow *window;
     MainViewController *mainViewController;
     LocationRecorder *locationRecorder;
-	
-@private
-    NSManagedObjectContext *managedObjectContext_;
-    NSManagedObjectModel *managedObjectModel_;
-    NSPersistentStoreCoordinator *persistentStoreCoordinator_;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet MainViewController *mainViewController;
 
 @property (nonatomic, readonly) LocationRecorder *locationRecorder;
-@property (nonatomic, retain, readonly) NSManagedObjectContext *managedObjectContext;
-@property (nonatomic, retain, readonly) NSManagedObjectModel *managedObjectModel;
-@property (nonatomic, retain, readonly) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+
 
 - (NSString *)applicationDocumentsDirectory;
 
