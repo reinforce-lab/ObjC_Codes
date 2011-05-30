@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD427466139331420053AA3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD427465139331420053AA3D /* UIKit.framework */; };
+		DD427468139331420053AA3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD427467139331420053AA3D /* Foundation.framework */; };
+		DD42746A139331420053AA3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD427469139331420053AA3D /* CoreGraphics.framework */; };
+		DD427470139331420053AA3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD42746E139331420053AA3D /* InfoPlist.strings */; };
+		DD427473139331420053AA3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD427472139331420053AA3D /* main.m */; };
+		DD427476139331420053AA3D /* moviePortraitLandscapeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD427475139331420053AA3D /* moviePortraitLandscapeAppDelegate.m */; };
+		DD427479139331420053AA3D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD427477139331420053AA3D /* MainWindow.xib */; };
+		DD42747C139331420053AA3D /* moviePortraitLandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD42747B139331420053AA3D /* moviePortraitLandscapeViewController.m */; };
+		DD42747F139331420053AA3D /* moviePortraitLandscapeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD42747D139331420053AA3D /* moviePortraitLandscapeViewController.xib */; };
+		DD427487139332F20053AA3D /* avPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD427486139332F20053AA3D /* avPlayerView.m */; };
+		DD4274901393330E0053AA3D /* assetPickupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4274891393330E0053AA3D /* assetPickupViewController.m */; };
+		DD4274911393330E0053AA3D /* assetTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD42748B1393330E0053AA3D /* assetTableViewCell.m */; };
+		DD4274921393330E0053AA3D /* assetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD42748D1393330E0053AA3D /* assetTableViewController.m */; };
+		DD4274931393330E0053AA3D /* assetThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD42748F1393330E0053AA3D /* assetThumbnailView.m */; };
+		DD4274B013937DA10053AA3D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4274AF13937DA10053AA3D /* AVFoundation.framework */; };
+		DD4274B213937DC30053AA3D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4274B113937DC30053AA3D /* CoreMedia.framework */; };
+		DD4274B413937DDE0053AA3D /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4274B313937DDE0053AA3D /* AssetsLibrary.framework */; };
+		DD4274B613937DF50053AA3D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4274B513937DF50053AA3D /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD427461139331420053AA3D /* moviePortraitLandscape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moviePortraitLandscape.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD427465139331420053AA3D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD427467139331420053AA3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD427469139331420053AA3D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD42746D139331420053AA3D /* moviePortraitLandscape-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "moviePortraitLandscape-Info.plist"; sourceTree = "<group>"; };
+		DD42746F139331420053AA3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD427471139331420053AA3D /* moviePortraitLandscape-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "moviePortraitLandscape-Prefix.pch"; sourceTree = "<group>"; };
+		DD427472139331420053AA3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD427474139331420053AA3D /* moviePortraitLandscapeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = moviePortraitLandscapeAppDelegate.h; sourceTree = "<group>"; };
+		DD427475139331420053AA3D /* moviePortraitLandscapeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = moviePortraitLandscapeAppDelegate.m; sourceTree = "<group>"; };
+		DD427478139331420053AA3D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		DD42747A139331420053AA3D /* moviePortraitLandscapeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = moviePortraitLandscapeViewController.h; sourceTree = "<group>"; };
+		DD42747B139331420053AA3D /* moviePortraitLandscapeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = moviePortraitLandscapeViewController.m; sourceTree = "<group>"; };
+		DD42747E139331420053AA3D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/moviePortraitLandscapeViewController.xib; sourceTree = "<group>"; };
+		DD427485139332F20053AA3D /* avPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = avPlayerView.h; sourceTree = "<group>"; };
+		DD427486139332F20053AA3D /* avPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = avPlayerView.m; sourceTree = "<group>"; };
+		DD4274881393330E0053AA3D /* assetPickupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = assetPickupViewController.h; sourceTree = "<group>"; };
+		DD4274891393330E0053AA3D /* assetPickupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = assetPickupViewController.m; sourceTree = "<group>"; };
+		DD42748A1393330E0053AA3D /* assetTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = assetTableViewCell.h; sourceTree = "<group>"; };
+		DD42748B1393330E0053AA3D /* assetTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = assetTableViewCell.m; sourceTree = "<group>"; };
+		DD42748C1393330E0053AA3D /* assetTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = assetTableViewController.h; sourceTree = "<group>"; };
+		DD42748D1393330E0053AA3D /* assetTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = assetTableViewController.m; sourceTree = "<group>"; };
+		DD42748E1393330E0053AA3D /* assetThumbnailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = assetThumbnailView.h; sourceTree = "<group>"; };
+		DD42748F1393330E0053AA3D /* assetThumbnailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = assetThumbnailView.m; sourceTree = "<group>"; };
+		DD4274AF13937DA10053AA3D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DD4274B113937DC30053AA3D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		DD4274B313937DDE0053AA3D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		DD4274B513937DF50053AA3D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD42745E139331420053AA3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4274B613937DF50053AA3D /* QuartzCore.framework in Frameworks */,
+				DD4274B413937DDE0053AA3D /* AssetsLibrary.framework in Frameworks */,
+				DD4274B213937DC30053AA3D /* CoreMedia.framework in Frameworks */,
+				DD4274B013937DA10053AA3D /* AVFoundation.framework in Frameworks */,
+				DD427466139331420053AA3D /* UIKit.framework in Frameworks */,
+				DD427468139331420053AA3D /* Foundation.framework in Frameworks */,
+				DD42746A139331420053AA3D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD427456139331410053AA3D = {
+			isa = PBXGroup;
+			children = (
+				DD42746B139331420053AA3D /* moviePortraitLandscape */,
+				DD427464139331420053AA3D /* Frameworks */,
+				DD427462139331420053AA3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD427462139331420053AA3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD427461139331420053AA3D /* moviePortraitLandscape.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD427464139331420053AA3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD4274B513937DF50053AA3D /* QuartzCore.framework */,
+				DD4274B313937DDE0053AA3D /* AssetsLibrary.framework */,
+				DD4274B113937DC30053AA3D /* CoreMedia.framework */,
+				DD4274AF13937DA10053AA3D /* AVFoundation.framework */,
+				DD427465139331420053AA3D /* UIKit.framework */,
+				DD427467139331420053AA3D /* Foundation.framework */,
+				DD427469139331420053AA3D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD42746B139331420053AA3D /* moviePortraitLandscape */ = {
+			isa = PBXGroup;
+			children = (
+				DD4274881393330E0053AA3D /* assetPickupViewController.h */,
+				DD4274891393330E0053AA3D /* assetPickupViewController.m */,
+				DD42748A1393330E0053AA3D /* assetTableViewCell.h */,
+				DD42748B1393330E0053AA3D /* assetTableViewCell.m */,
+				DD42748C1393330E0053AA3D /* assetTableViewController.h */,
+				DD42748D1393330E0053AA3D /* assetTableViewController.m */,
+				DD42748E1393330E0053AA3D /* assetThumbnailView.h */,
+				DD42748F1393330E0053AA3D /* assetThumbnailView.m */,
+				DD427485139332F20053AA3D /* avPlayerView.h */,
+				DD427486139332F20053AA3D /* avPlayerView.m */,
+				DD427474139331420053AA3D /* moviePortraitLandscapeAppDelegate.h */,
+				DD427475139331420053AA3D /* moviePortraitLandscapeAppDelegate.m */,
+				DD427477139331420053AA3D /* MainWindow.xib */,
+				DD42747A139331420053AA3D /* moviePortraitLandscapeViewController.h */,
+				DD42747B139331420053AA3D /* moviePortraitLandscapeViewController.m */,
+				DD42747D139331420053AA3D /* moviePortraitLandscapeViewController.xib */,
+				DD42746C139331420053AA3D /* Supporting Files */,
+			);
+			path = moviePortraitLandscape;
+			sourceTree = "<group>";
+		};
+		DD42746C139331420053AA3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD42746D139331420053AA3D /* moviePortraitLandscape-Info.plist */,
+				DD42746E139331420053AA3D /* InfoPlist.strings */,
+				DD427471139331420053AA3D /* moviePortraitLandscape-Prefix.pch */,
+				DD427472139331420053AA3D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD427460139331420053AA3D /* moviePortraitLandscape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD427482139331420053AA3D /* Build configuration list for PBXNativeTarget "moviePortraitLandscape" */;
+			buildPhases = (
+				DD42745D139331420053AA3D /* Sources */,
+				DD42745E139331420053AA3D /* Frameworks */,
+				DD42745F139331420053AA3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = moviePortraitLandscape;
+			productName = moviePortraitLandscape;
+			productReference = DD427461139331420053AA3D /* moviePortraitLandscape.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD427458139331410053AA3D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DD42745B139331410053AA3D /* Build configuration list for PBXProject "moviePortraitLandscape" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD427456139331410053AA3D;
+			productRefGroup = DD427462139331420053AA3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD427460139331420053AA3D /* moviePortraitLandscape */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD42745F139331420053AA3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD427470139331420053AA3D /* InfoPlist.strings in Resources */,
+				DD427479139331420053AA3D /* MainWindow.xib in Resources */,
+				DD42747F139331420053AA3D /* moviePortraitLandscapeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD42745D139331420053AA3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD427473139331420053AA3D /* main.m in Sources */,
+				DD427476139331420053AA3D /* moviePortraitLandscapeAppDelegate.m in Sources */,
+				DD42747C139331420053AA3D /* moviePortraitLandscapeViewController.m in Sources */,
+				DD427487139332F20053AA3D /* avPlayerView.m in Sources */,
+				DD4274901393330E0053AA3D /* assetPickupViewController.m in Sources */,
+				DD4274911393330E0053AA3D /* assetTableViewCell.m in Sources */,
+				DD4274921393330E0053AA3D /* assetTableViewController.m in Sources */,
+				DD4274931393330E0053AA3D /* assetThumbnailView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD42746E139331420053AA3D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD42746F139331420053AA3D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD427477139331420053AA3D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD427478139331420053AA3D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		DD42747D139331420053AA3D /* moviePortraitLandscapeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD42747E139331420053AA3D /* en */,
+			);
+			name = moviePortraitLandscapeViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD427480139331420053AA3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD427481139331420053AA3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		DD427483139331420053AA3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "moviePortraitLandscape/moviePortraitLandscape-Prefix.pch";
+				INFOPLIST_FILE = "moviePortraitLandscape/moviePortraitLandscape-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD427484139331420053AA3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "moviePortraitLandscape/moviePortraitLandscape-Prefix.pch";
+				INFOPLIST_FILE = "moviePortraitLandscape/moviePortraitLandscape-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD42745B139331410053AA3D /* Build configuration list for PBXProject "moviePortraitLandscape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD427480139331420053AA3D /* Debug */,
+				DD427481139331420053AA3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD427482139331420053AA3D /* Build configuration list for PBXNativeTarget "moviePortraitLandscape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD427483139331420053AA3D /* Debug */,
+				DD427484139331420053AA3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD427458139331410053AA3D /* Project object */;
+}
