@@ -1,16 +1,14 @@
-#ignore build files
 build/
-*.mode1
-*.mode1v3
-*.mode2v3
+.DS_Store
+*.swp
+*~
+*.nib
+*.pbxuser
 *.perspective
 *.perspectivev3
-*.pbxuser
-*.xcworkspace
-xcuserdata
- 
-.DS_Store
-*~.nib
-*.swp
+*.mode1v3
+*.mode2v3
 
+xcuserdata
+*.xcworkspace/
 
