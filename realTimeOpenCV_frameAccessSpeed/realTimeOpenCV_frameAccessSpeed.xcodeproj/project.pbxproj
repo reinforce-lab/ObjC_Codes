@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD1E8B3A1394F6E500D6B4CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD1E8B391394F6E500D6B4CF /* UIKit.framework */; };
+		DD1E8B3C1394F6E500D6B4CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD1E8B3B1394F6E500D6B4CF /* Foundation.framework */; };
+		DD1E8B3E1394F6E500D6B4CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD1E8B3D1394F6E500D6B4CF /* CoreGraphics.framework */; };
+		DD1E8B441394F6E500D6B4CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD1E8B421394F6E500D6B4CF /* InfoPlist.strings */; };
+		DD1E8B471394F6E500D6B4CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1E8B461394F6E500D6B4CF /* main.m */; };
+		DD1E8B4A1394F6E500D6B4CF /* realTimeOpenCV_frameAccessSpeedAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1E8B491394F6E500D6B4CF /* realTimeOpenCV_frameAccessSpeedAppDelegate.m */; };
+		DD1E8B4D1394F6E500D6B4CF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD1E8B4B1394F6E500D6B4CF /* MainWindow.xib */; };
+		DD1E8B501394F6E600D6B4CF /* realTimeOpenCV_frameAccessSpeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1E8B4F1394F6E600D6B4CF /* realTimeOpenCV_frameAccessSpeedViewController.m */; };
+		DD1E8B691394F70200D6B4CF /* assetPickupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1E8B621394F70200D6B4CF /* assetPickupViewController.m */; };
+		DD1E8B6A1394F70200D6B4CF /* assetTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1E8B641394F70200D6B4CF /* assetTableViewCell.m */; };
+		DD1E8B6B1394F70200D6B4CF /* assetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1E8B661394F70200D6B4CF /* assetTableViewController.m */; };
+		DD1E8B6C1394F70200D6B4CF /* assetThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1E8B681394F70200D6B4CF /* assetThumbnailView.m */; };
+		DD1E8B801394FD4000D6B4CF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD1E8B7F1394FD4000D6B4CF /* AVFoundation.framework */; };
+		DD1E8B821394FDC100D6B4CF /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD1E8B811394FDC100D6B4CF /* CoreMedia.framework */; };
+		DD1E8B841395001D00D6B4CF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD1E8B831395001D00D6B4CF /* QuartzCore.framework */; };
+		DD1E8B86139500BB00D6B4CF /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD1E8B85139500BB00D6B4CF /* CoreVideo.framework */; };
+		DD1E8B871395026200D6B4CF /* realTimeOpenCV_frameAccessSpeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD1E8B881395026200D6B4CF /* realTimeOpenCV_frameAccessSpeedViewController.xib */; };
+		DD1E8B8A1395074300D6B4CF /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD1E8B891395074300D6B4CF /* AssetsLibrary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD1E8B351394F6E500D6B4CF /* realTimeOpenCV_frameAccessSpeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = realTimeOpenCV_frameAccessSpeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD1E8B391394F6E500D6B4CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD1E8B3B1394F6E500D6B4CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD1E8B3D1394F6E500D6B4CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD1E8B411394F6E500D6B4CF /* realTimeOpenCV_frameAccessSpeed-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "realTimeOpenCV_frameAccessSpeed-Info.plist"; sourceTree = "<group>"; };
+		DD1E8B431394F6E500D6B4CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD1E8B451394F6E500D6B4CF /* realTimeOpenCV_frameAccessSpeed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "realTimeOpenCV_frameAccessSpeed-Prefix.pch"; sourceTree = "<group>"; };
+		DD1E8B461394F6E500D6B4CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD1E8B481394F6E500D6B4CF /* realTimeOpenCV_frameAccessSpeedAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = realTimeOpenCV_frameAccessSpeedAppDelegate.h; sourceTree = "<group>"; };
+		DD1E8B491394F6E500D6B4CF /* realTimeOpenCV_frameAccessSpeedAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = realTimeOpenCV_frameAccessSpeedAppDelegate.m; sourceTree = "<group>"; };
+		DD1E8B4C1394F6E500D6B4CF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		DD1E8B4E1394F6E600D6B4CF /* realTimeOpenCV_frameAccessSpeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = realTimeOpenCV_frameAccessSpeedViewController.h; sourceTree = "<group>"; };
+		DD1E8B4F1394F6E600D6B4CF /* realTimeOpenCV_frameAccessSpeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = realTimeOpenCV_frameAccessSpeedViewController.m; sourceTree = "<group>"; };
+		DD1E8B611394F70200D6B4CF /* assetPickupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = assetPickupViewController.h; sourceTree = "<group>"; };
+		DD1E8B621394F70200D6B4CF /* assetPickupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = assetPickupViewController.m; sourceTree = "<group>"; };
+		DD1E8B631394F70200D6B4CF /* assetTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = assetTableViewCell.h; sourceTree = "<group>"; };
+		DD1E8B641394F70200D6B4CF /* assetTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = assetTableViewCell.m; sourceTree = "<group>"; };
+		DD1E8B651394F70200D6B4CF /* assetTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = assetTableViewController.h; sourceTree = "<group>"; };
+		DD1E8B661394F70200D6B4CF /* assetTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = assetTableViewController.m; sourceTree = "<group>"; };
+		DD1E8B671394F70200D6B4CF /* assetThumbnailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = assetThumbnailView.h; sourceTree = "<group>"; };
+		DD1E8B681394F70200D6B4CF /* assetThumbnailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = assetThumbnailView.m; sourceTree = "<group>"; };
+		DD1E8B7F1394FD4000D6B4CF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DD1E8B811394FDC100D6B4CF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		DD1E8B831395001D00D6B4CF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DD1E8B85139500BB00D6B4CF /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		DD1E8B881395026200D6B4CF /* realTimeOpenCV_frameAccessSpeedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = realTimeOpenCV_frameAccessSpeedViewController.xib; sourceTree = "<group>"; };
+		DD1E8B891395074300D6B4CF /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD1E8B321394F6E500D6B4CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1E8B8A1395074300D6B4CF /* AssetsLibrary.framework in Frameworks */,
+				DD1E8B86139500BB00D6B4CF /* CoreVideo.framework in Frameworks */,
+				DD1E8B841395001D00D6B4CF /* QuartzCore.framework in Frameworks */,
+				DD1E8B821394FDC100D6B4CF /* CoreMedia.framework in Frameworks */,
+				DD1E8B801394FD4000D6B4CF /* AVFoundation.framework in Frameworks */,
+				DD1E8B3A1394F6E500D6B4CF /* UIKit.framework in Frameworks */,
+				DD1E8B3C1394F6E500D6B4CF /* Foundation.framework in Frameworks */,
+				DD1E8B3E1394F6E500D6B4CF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD1E8B2A1394F6E500D6B4CF = {
+			isa = PBXGroup;
+			children = (
+				DD1E8B891395074300D6B4CF /* AssetsLibrary.framework */,
+				DD1E8B85139500BB00D6B4CF /* CoreVideo.framework */,
+				DD1E8B831395001D00D6B4CF /* QuartzCore.framework */,
+				DD1E8B811394FDC100D6B4CF /* CoreMedia.framework */,
+				DD1E8B7F1394FD4000D6B4CF /* AVFoundation.framework */,
+				DD1E8B3F1394F6E500D6B4CF /* realTimeOpenCV_frameAccessSpeed */,
+				DD1E8B381394F6E500D6B4CF /* Frameworks */,
+				DD1E8B361394F6E500D6B4CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD1E8B361394F6E500D6B4CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD1E8B351394F6E500D6B4CF /* realTimeOpenCV_frameAccessSpeed.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD1E8B381394F6E500D6B4CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD1E8B391394F6E500D6B4CF /* UIKit.framework */,
+				DD1E8B3B1394F6E500D6B4CF /* Foundation.framework */,
+				DD1E8B3D1394F6E500D6B4CF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD1E8B3F1394F6E500D6B4CF /* realTimeOpenCV_frameAccessSpeed */ = {
+			isa = PBXGroup;
+			children = (
+				DD1E8B611394F70200D6B4CF /* assetPickupViewController.h */,
+				DD1E8B621394F70200D6B4CF /* assetPickupViewController.m */,
+				DD1E8B631394F70200D6B4CF /* assetTableViewCell.h */,
+				DD1E8B641394F70200D6B4CF /* assetTableViewCell.m */,
+				DD1E8B651394F70200D6B4CF /* assetTableViewController.h */,
+				DD1E8B661394F70200D6B4CF /* assetTableViewController.m */,
+				DD1E8B671394F70200D6B4CF /* assetThumbnailView.h */,
+				DD1E8B681394F70200D6B4CF /* assetThumbnailView.m */,
+				DD1E8B481394F6E500D6B4CF /* realTimeOpenCV_frameAccessSpeedAppDelegate.h */,
+				DD1E8B491394F6E500D6B4CF /* realTimeOpenCV_frameAccessSpeedAppDelegate.m */,
+				DD1E8B4B1394F6E500D6B4CF /* MainWindow.xib */,
+				DD1E8B4E1394F6E600D6B4CF /* realTimeOpenCV_frameAccessSpeedViewController.h */,
+				DD1E8B4F1394F6E600D6B4CF /* realTimeOpenCV_frameAccessSpeedViewController.m */,
+				DD1E8B881395026200D6B4CF /* realTimeOpenCV_frameAccessSpeedViewController.xib */,
+				DD1E8B401394F6E500D6B4CF /* Supporting Files */,
+			);
+			path = realTimeOpenCV_frameAccessSpeed;
+			sourceTree = "<group>";
+		};
+		DD1E8B401394F6E500D6B4CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD1E8B411394F6E500D6B4CF /* realTimeOpenCV_frameAccessSpeed-Info.plist */,
+				DD1E8B421394F6E500D6B4CF /* InfoPlist.strings */,
+				DD1E8B451394F6E500D6B4CF /* realTimeOpenCV_frameAccessSpeed-Prefix.pch */,
+				DD1E8B461394F6E500D6B4CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD1E8B341394F6E500D6B4CF /* realTimeOpenCV_frameAccessSpeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD1E8B561394F6E600D6B4CF /* Build configuration list for PBXNativeTarget "realTimeOpenCV_frameAccessSpeed" */;
+			buildPhases = (
+				DD1E8B311394F6E500D6B4CF /* Sources */,
+				DD1E8B321394F6E500D6B4CF /* Frameworks */,
+				DD1E8B331394F6E500D6B4CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = realTimeOpenCV_frameAccessSpeed;
+			productName = realTimeOpenCV_frameAccessSpeed;
+			productReference = DD1E8B351394F6E500D6B4CF /* realTimeOpenCV_frameAccessSpeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD1E8B2C1394F6E500D6B4CF /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DD1E8B2F1394F6E500D6B4CF /* Build configuration list for PBXProject "realTimeOpenCV_frameAccessSpeed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD1E8B2A1394F6E500D6B4CF;
+			productRefGroup = DD1E8B361394F6E500D6B4CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD1E8B341394F6E500D6B4CF /* realTimeOpenCV_frameAccessSpeed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD1E8B331394F6E500D6B4CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1E8B441394F6E500D6B4CF /* InfoPlist.strings in Resources */,
+				DD1E8B4D1394F6E500D6B4CF /* MainWindow.xib in Resources */,
+				DD1E8B871395026200D6B4CF /* realTimeOpenCV_frameAccessSpeedViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD1E8B311394F6E500D6B4CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1E8B471394F6E500D6B4CF /* main.m in Sources */,
+				DD1E8B4A1394F6E500D6B4CF /* realTimeOpenCV_frameAccessSpeedAppDelegate.m in Sources */,
+				DD1E8B501394F6E600D6B4CF /* realTimeOpenCV_frameAccessSpeedViewController.m in Sources */,
+				DD1E8B691394F70200D6B4CF /* assetPickupViewController.m in Sources */,
+				DD1E8B6A1394F70200D6B4CF /* assetTableViewCell.m in Sources */,
+				DD1E8B6B1394F70200D6B4CF /* assetTableViewController.m in Sources */,
+				DD1E8B6C1394F70200D6B4CF /* assetThumbnailView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD1E8B421394F6E500D6B4CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD1E8B431394F6E500D6B4CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD1E8B4B1394F6E500D6B4CF /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD1E8B4C1394F6E500D6B4CF /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD1E8B541394F6E600D6B4CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD1E8B551394F6E600D6B4CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		DD1E8B571394F6E600D6B4CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "realTimeOpenCV_frameAccessSpeed/realTimeOpenCV_frameAccessSpeed-Prefix.pch";
+				INFOPLIST_FILE = "realTimeOpenCV_frameAccessSpeed/realTimeOpenCV_frameAccessSpeed-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD1E8B581394F6E600D6B4CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "realTimeOpenCV_frameAccessSpeed/realTimeOpenCV_frameAccessSpeed-Prefix.pch";
+				INFOPLIST_FILE = "realTimeOpenCV_frameAccessSpeed/realTimeOpenCV_frameAccessSpeed-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD1E8B2F1394F6E500D6B4CF /* Build configuration list for PBXProject "realTimeOpenCV_frameAccessSpeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD1E8B541394F6E600D6B4CF /* Debug */,
+				DD1E8B551394F6E600D6B4CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD1E8B561394F6E600D6B4CF /* Build configuration list for PBXNativeTarget "realTimeOpenCV_frameAccessSpeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD1E8B571394F6E600D6B4CF /* Debug */,
+				DD1E8B581394F6E600D6B4CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD1E8B2C1394F6E500D6B4CF /* Project object */;
+}
