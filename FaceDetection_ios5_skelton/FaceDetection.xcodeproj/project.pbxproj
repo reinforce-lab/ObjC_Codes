@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F875CAB514BC2882007C3F75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F875CAB414BC2882007C3F75 /* UIKit.framework */; };
+		F875CAB714BC2882007C3F75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F875CAB614BC2882007C3F75 /* Foundation.framework */; };
+		F875CAB914BC2882007C3F75 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F875CAB814BC2882007C3F75 /* CoreGraphics.framework */; };
+		F875CABF14BC2882007C3F75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F875CABD14BC2882007C3F75 /* InfoPlist.strings */; };
+		F875CAC114BC2882007C3F75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F875CAC014BC2882007C3F75 /* main.m */; };
+		F875CAC514BC2883007C3F75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F875CAC414BC2882007C3F75 /* AppDelegate.m */; };
+		F875CACB14BC2883007C3F75 /* FaceTrackingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F875CAC914BC2883007C3F75 /* FaceTrackingViewController.xib */; };
+		F875CAD714BC28EA007C3F75 /* FaceTrackingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F875CAD614BC28EA007C3F75 /* FaceTrackingViewController.m */; };
+		F875CADB14BC2906007C3F75 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F875CAD914BC2906007C3F75 /* CoreImage.framework */; };
+		F875CADC14BC2906007C3F75 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F875CADA14BC2906007C3F75 /* ImageIO.framework */; };
+		F875CADE14BC290E007C3F75 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F875CADD14BC290E007C3F75 /* AVFoundation.framework */; };
+		F875CAE014BC2914007C3F75 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F875CADF14BC2914007C3F75 /* CoreMedia.framework */; };
+		F875CAE214BC2926007C3F75 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F875CAE114BC2926007C3F75 /* QuartzCore.framework */; };
+		F875CAE414BC292D007C3F75 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F875CAE314BC292D007C3F75 /* CoreVideo.framework */; };
+		F875CB1F14BC29D8007C3F75 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F875CB1D14BC29D8007C3F75 /* GLKit.framework */; };
+		F875CB2014BC29D8007C3F75 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F875CB1E14BC29D8007C3F75 /* OpenGLES.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F875CAB014BC2882007C3F75 /* FaceDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F875CAB414BC2882007C3F75 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F875CAB614BC2882007C3F75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F875CAB814BC2882007C3F75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F875CABC14BC2882007C3F75 /* FaceDetection-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FaceDetection-Info.plist"; sourceTree = "<group>"; };
+		F875CABE14BC2882007C3F75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F875CAC014BC2882007C3F75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F875CAC214BC2882007C3F75 /* FaceDetection-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FaceDetection-Prefix.pch"; sourceTree = "<group>"; };
+		F875CAC314BC2882007C3F75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F875CAC414BC2882007C3F75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F875CACA14BC2883007C3F75 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FaceTrackingViewController.xib; sourceTree = "<group>"; };
+		F875CAD514BC28EA007C3F75 /* FaceTrackingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceTrackingViewController.h; sourceTree = "<group>"; };
+		F875CAD614BC28EA007C3F75 /* FaceTrackingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceTrackingViewController.m; sourceTree = "<group>"; };
+		F875CAD914BC2906007C3F75 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		F875CADA14BC2906007C3F75 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		F875CADD14BC290E007C3F75 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F875CADF14BC2914007C3F75 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F875CAE114BC2926007C3F75 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F875CAE314BC292D007C3F75 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		F875CB1D14BC29D8007C3F75 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		F875CB1E14BC29D8007C3F75 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F875CAAD14BC2882007C3F75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F875CB1F14BC29D8007C3F75 /* GLKit.framework in Frameworks */,
+				F875CB2014BC29D8007C3F75 /* OpenGLES.framework in Frameworks */,
+				F875CAE414BC292D007C3F75 /* CoreVideo.framework in Frameworks */,
+				F875CAE214BC2926007C3F75 /* QuartzCore.framework in Frameworks */,
+				F875CAE014BC2914007C3F75 /* CoreMedia.framework in Frameworks */,
+				F875CADE14BC290E007C3F75 /* AVFoundation.framework in Frameworks */,
+				F875CADB14BC2906007C3F75 /* CoreImage.framework in Frameworks */,
+				F875CADC14BC2906007C3F75 /* ImageIO.framework in Frameworks */,
+				F875CAB514BC2882007C3F75 /* UIKit.framework in Frameworks */,
+				F875CAB714BC2882007C3F75 /* Foundation.framework in Frameworks */,
+				F875CAB914BC2882007C3F75 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F875CAA514BC2882007C3F75 = {
+			isa = PBXGroup;
+			children = (
+				F875CABA14BC2882007C3F75 /* FaceDetection */,
+				F875CAB314BC2882007C3F75 /* Frameworks */,
+				F875CAB114BC2882007C3F75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F875CAB114BC2882007C3F75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F875CAB014BC2882007C3F75 /* FaceDetection.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F875CAB314BC2882007C3F75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F875CB1D14BC29D8007C3F75 /* GLKit.framework */,
+				F875CB1E14BC29D8007C3F75 /* OpenGLES.framework */,
+				F875CAE314BC292D007C3F75 /* CoreVideo.framework */,
+				F875CAE114BC2926007C3F75 /* QuartzCore.framework */,
+				F875CADF14BC2914007C3F75 /* CoreMedia.framework */,
+				F875CADD14BC290E007C3F75 /* AVFoundation.framework */,
+				F875CAD914BC2906007C3F75 /* CoreImage.framework */,
+				F875CADA14BC2906007C3F75 /* ImageIO.framework */,
+				F875CAB414BC2882007C3F75 /* UIKit.framework */,
+				F875CAB614BC2882007C3F75 /* Foundation.framework */,
+				F875CAB814BC2882007C3F75 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F875CABA14BC2882007C3F75 /* FaceDetection */ = {
+			isa = PBXGroup;
+			children = (
+				F875CAD514BC28EA007C3F75 /* FaceTrackingViewController.h */,
+				F875CAD614BC28EA007C3F75 /* FaceTrackingViewController.m */,
+				F875CAC914BC2883007C3F75 /* FaceTrackingViewController.xib */,
+				F875CAC314BC2882007C3F75 /* AppDelegate.h */,
+				F875CAC414BC2882007C3F75 /* AppDelegate.m */,
+				F875CABB14BC2882007C3F75 /* Supporting Files */,
+			);
+			path = FaceDetection;
+			sourceTree = "<group>";
+		};
+		F875CABB14BC2882007C3F75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F875CABC14BC2882007C3F75 /* FaceDetection-Info.plist */,
+				F875CABD14BC2882007C3F75 /* InfoPlist.strings */,
+				F875CAC014BC2882007C3F75 /* main.m */,
+				F875CAC214BC2882007C3F75 /* FaceDetection-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F875CAAF14BC2882007C3F75 /* FaceDetection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F875CACE14BC2883007C3F75 /* Build configuration list for PBXNativeTarget "FaceDetection" */;
+			buildPhases = (
+				F875CAAC14BC2882007C3F75 /* Sources */,
+				F875CAAD14BC2882007C3F75 /* Frameworks */,
+				F875CAAE14BC2882007C3F75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceDetection;
+			productName = FaceDetection;
+			productReference = F875CAB014BC2882007C3F75 /* FaceDetection.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F875CAA714BC2882007C3F75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "REINFORCE Lab.";
+			};
+			buildConfigurationList = F875CAAA14BC2882007C3F75 /* Build configuration list for PBXProject "FaceDetection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F875CAA514BC2882007C3F75;
+			productRefGroup = F875CAB114BC2882007C3F75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F875CAAF14BC2882007C3F75 /* FaceDetection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F875CAAE14BC2882007C3F75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F875CABF14BC2882007C3F75 /* InfoPlist.strings in Resources */,
+				F875CACB14BC2883007C3F75 /* FaceTrackingViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F875CAAC14BC2882007C3F75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F875CAC114BC2882007C3F75 /* main.m in Sources */,
+				F875CAC514BC2883007C3F75 /* AppDelegate.m in Sources */,
+				F875CAD714BC28EA007C3F75 /* FaceTrackingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F875CABD14BC2882007C3F75 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F875CABE14BC2882007C3F75 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F875CAC914BC2883007C3F75 /* FaceTrackingViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F875CACA14BC2883007C3F75 /* en */,
+			);
+			name = FaceTrackingViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F875CACC14BC2883007C3F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F875CACD14BC2883007C3F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F875CACF14BC2883007C3F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FaceDetection/FaceDetection-Prefix.pch";
+				INFOPLIST_FILE = "FaceDetection/FaceDetection-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F875CAD014BC2883007C3F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FaceDetection/FaceDetection-Prefix.pch";
+				INFOPLIST_FILE = "FaceDetection/FaceDetection-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F875CAAA14BC2882007C3F75 /* Build configuration list for PBXProject "FaceDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F875CACC14BC2883007C3F75 /* Debug */,
+				F875CACD14BC2883007C3F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F875CACE14BC2883007C3F75 /* Build configuration list for PBXNativeTarget "FaceDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F875CACF14BC2883007C3F75 /* Debug */,
+				F875CAD014BC2883007C3F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F875CAA714BC2882007C3F75 /* Project object */;
+}

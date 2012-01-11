@@ -96,8 +96,18 @@ MetronomePlayer *player_;
 }
 
 #pragma mark - MetronomePlayerDelegate
--(void)keepTime
+-(void)keepTime:(int)tempo
 {
+    NSLog(@"tempo: %d", tempo);
+    
+    switch (tempo) {
+        case 0:
+            break;
+        case 1:
+            break;
+        default:
+            break;
+    }
     [UIView 
      animateWithDuration:0.1           
      animations:^{

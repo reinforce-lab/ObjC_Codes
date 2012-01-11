@@ -110,12 +110,16 @@ static OSStatus renderCallback(
             // 1024程度のバッファ長なので、これを考慮しなくても+-11.5msecのずれなので、気にならないかもしれないが。
             // オーディオバッファに書きこんでから実際に音として出力されるまで、ロールカットフィルタなどの遅延があるはず。
             // ここではそれらまでは考慮してない。
-//            NSLog(@"srcPos %d (srcPos + wrtLen) %d srcLen %d", srcPos, srcPos + wrtLen, srcLen);
-            if((srcPos + wrtLen) >= srcLen) {
-                double delayInSeconds = (dstPos + (srcLen - srcPos)) / SAMPLING_RATE;
+//          NSLog(@"srcPos %d (srcPos + wrtLen) %d srcLen %d", srcPos, srcPos + wrtLen, srcLen);
+            int res  = srcPos % (srcLen /4);
+            int pos1 = srcPos / (srcLen / 4);
+            int pos2 = (srcPos + wrtLen) / (srcLen / 4);
+            if(res == 0 || (pos1 != pos2 && pos2 != 4)) {                
+                double delayInSeconds = ((srcLen / 4 ) * pos2 - srcPos) / SAMPLING_RATE;
+                pos2 %= 4;
                 dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, delayInSeconds * NSEC_PER_SEC);
-                dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
-                    [def.delegate keepTime];
+                dispatch_after(popTime, dispatch_get_main_queue(), ^(void){                    
+                    [def.delegate keepTime:pos2];
                 });
             }
             

@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @protocol MetronomePlayerDelegate
--(void)keepTime;
+-(void)keepTime:(int)tempo;
 @end
 
 // メトロノームの音再生。4/4拍子のみ対応。
