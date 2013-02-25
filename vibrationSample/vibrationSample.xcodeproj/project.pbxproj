@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F81DDE6414CFD95700471077 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81DDE6314CFD95700471077 /* UIKit.framework */; };
+		F81DDE6614CFD95700471077 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81DDE6514CFD95700471077 /* Foundation.framework */; };
+		F81DDE6814CFD95700471077 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81DDE6714CFD95700471077 /* CoreGraphics.framework */; };
+		F81DDE6E14CFD95700471077 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F81DDE6C14CFD95700471077 /* InfoPlist.strings */; };
+		F81DDE7014CFD95700471077 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F81DDE6F14CFD95700471077 /* main.m */; };
+		F81DDE7414CFD95700471077 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F81DDE7314CFD95700471077 /* AppDelegate.m */; };
+		F81DDE7714CFD95700471077 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F81DDE7614CFD95700471077 /* ViewController.m */; };
+		F81DDE7A14CFD95700471077 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F81DDE7814CFD95700471077 /* ViewController.xib */; };
+		F81DDE8214CFD97600471077 /* vibrationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F81DDE8114CFD97600471077 /* vibrationController.m */; };
+		F81DDE8614CFDBB500471077 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81DDE8514CFDBB500471077 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F81DDE5F14CFD95700471077 /* vibrationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vibrationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81DDE6314CFD95700471077 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F81DDE6514CFD95700471077 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F81DDE6714CFD95700471077 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F81DDE6B14CFD95700471077 /* vibrationSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "vibrationSample-Info.plist"; sourceTree = "<group>"; };
+		F81DDE6D14CFD95700471077 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F81DDE6F14CFD95700471077 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F81DDE7114CFD95700471077 /* vibrationSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "vibrationSample-Prefix.pch"; sourceTree = "<group>"; };
+		F81DDE7214CFD95700471077 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F81DDE7314CFD95700471077 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F81DDE7514CFD95700471077 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F81DDE7614CFD95700471077 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F81DDE7914CFD95700471077 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		F81DDE8014CFD97600471077 /* vibrationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vibrationController.h; sourceTree = "<group>"; };
+		F81DDE8114CFD97600471077 /* vibrationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vibrationController.m; sourceTree = "<group>"; };
+		F81DDE8514CFDBB500471077 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F81DDE5C14CFD95700471077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81DDE8614CFDBB500471077 /* AudioToolbox.framework in Frameworks */,
+				F81DDE6414CFD95700471077 /* UIKit.framework in Frameworks */,
+				F81DDE6614CFD95700471077 /* Foundation.framework in Frameworks */,
+				F81DDE6814CFD95700471077 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F81DDE5414CFD95700471077 = {
+			isa = PBXGroup;
+			children = (
+				F81DDE8014CFD97600471077 /* vibrationController.h */,
+				F81DDE8114CFD97600471077 /* vibrationController.m */,
+				F81DDE6914CFD95700471077 /* vibrationSample */,
+				F81DDE6214CFD95700471077 /* Frameworks */,
+				F81DDE6014CFD95700471077 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F81DDE6014CFD95700471077 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F81DDE5F14CFD95700471077 /* vibrationSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F81DDE6214CFD95700471077 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F81DDE8514CFDBB500471077 /* AudioToolbox.framework */,
+				F81DDE6314CFD95700471077 /* UIKit.framework */,
+				F81DDE6514CFD95700471077 /* Foundation.framework */,
+				F81DDE6714CFD95700471077 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F81DDE6914CFD95700471077 /* vibrationSample */ = {
+			isa = PBXGroup;
+			children = (
+				F81DDE7214CFD95700471077 /* AppDelegate.h */,
+				F81DDE7314CFD95700471077 /* AppDelegate.m */,
+				F81DDE7514CFD95700471077 /* ViewController.h */,
+				F81DDE7614CFD95700471077 /* ViewController.m */,
+				F81DDE7814CFD95700471077 /* ViewController.xib */,
+				F81DDE6A14CFD95700471077 /* Supporting Files */,
+			);
+			path = vibrationSample;
+			sourceTree = "<group>";
+		};
+		F81DDE6A14CFD95700471077 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F81DDE6B14CFD95700471077 /* vibrationSample-Info.plist */,
+				F81DDE6C14CFD95700471077 /* InfoPlist.strings */,
+				F81DDE6F14CFD95700471077 /* main.m */,
+				F81DDE7114CFD95700471077 /* vibrationSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F81DDE5E14CFD95700471077 /* vibrationSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F81DDE7D14CFD95700471077 /* Build configuration list for PBXNativeTarget "vibrationSample" */;
+			buildPhases = (
+				F81DDE5B14CFD95700471077 /* Sources */,
+				F81DDE5C14CFD95700471077 /* Frameworks */,
+				F81DDE5D14CFD95700471077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vibrationSample;
+			productName = vibrationSample;
+			productReference = F81DDE5F14CFD95700471077 /* vibrationSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F81DDE5614CFD95700471077 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "REINFORCE Lab.";
+			};
+			buildConfigurationList = F81DDE5914CFD95700471077 /* Build configuration list for PBXProject "vibrationSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F81DDE5414CFD95700471077;
+			productRefGroup = F81DDE6014CFD95700471077 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F81DDE5E14CFD95700471077 /* vibrationSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F81DDE5D14CFD95700471077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81DDE6E14CFD95700471077 /* InfoPlist.strings in Resources */,
+				F81DDE7A14CFD95700471077 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F81DDE5B14CFD95700471077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81DDE7014CFD95700471077 /* main.m in Sources */,
+				F81DDE7414CFD95700471077 /* AppDelegate.m in Sources */,
+				F81DDE7714CFD95700471077 /* ViewController.m in Sources */,
+				F81DDE8214CFD97600471077 /* vibrationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F81DDE6C14CFD95700471077 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F81DDE6D14CFD95700471077 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F81DDE7814CFD95700471077 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F81DDE7914CFD95700471077 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F81DDE7B14CFD95700471077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F81DDE7C14CFD95700471077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F81DDE7E14CFD95700471077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "vibrationSample/vibrationSample-Prefix.pch";
+				INFOPLIST_FILE = "vibrationSample/vibrationSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F81DDE7F14CFD95700471077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "vibrationSample/vibrationSample-Prefix.pch";
+				INFOPLIST_FILE = "vibrationSample/vibrationSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F81DDE5914CFD95700471077 /* Build configuration list for PBXProject "vibrationSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81DDE7B14CFD95700471077 /* Debug */,
+				F81DDE7C14CFD95700471077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F81DDE7D14CFD95700471077 /* Build configuration list for PBXNativeTarget "vibrationSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81DDE7E14CFD95700471077 /* Debug */,
+				F81DDE7F14CFD95700471077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F81DDE5614CFD95700471077 /* Project object */;
+}
