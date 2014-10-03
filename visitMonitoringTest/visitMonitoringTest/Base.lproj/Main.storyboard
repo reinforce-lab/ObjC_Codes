@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lkk-gZ-WTO">
+                                <rect key="frame" x="0.0" y="20" width="584" height="500"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sSa-aJ-jdQ">
+                                <rect key="frame" x="71" y="545" width="67" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="67" id="NDt-lR-eqj"/>
+                                    <constraint firstAttribute="height" constant="30" id="Xl9-3w-KAL"/>
+                                </constraints>
+                                <state key="normal" title="Clear">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clearButtonTouchUpInside:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="CpT-Nu-mlC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="lkk-gZ-WTO" secondAttribute="bottom" constant="80" id="6Ot-BK-b8G"/>
+                            <constraint firstItem="lkk-gZ-WTO" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="Dh6-w5-3OE"/>
+                            <constraint firstItem="sSa-aJ-jdQ" firstAttribute="leading" secondItem="lkk-gZ-WTO" secondAttribute="leading" constant="71" id="jBW-8J-lrq"/>
+                            <constraint firstItem="lkk-gZ-WTO" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="oX0-eN-fBi"/>
+                            <constraint firstItem="sSa-aJ-jdQ" firstAttribute="top" secondItem="lkk-gZ-WTO" secondAttribute="bottom" constant="25" id="wLr-lV-kgF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lkk-gZ-WTO" secondAttribute="trailing" id="z7B-zl-GCG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="logTextView" destination="lkk-gZ-WTO" id="vM6-Rh-j8U"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
